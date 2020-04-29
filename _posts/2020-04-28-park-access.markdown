@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Park Access & COVID-19: A Mapbox Story"
 date:   2020-04-28 10:31:05 -0400
 categories: maps
 ---
