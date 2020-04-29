@@ -5,7 +5,7 @@ var config = {
     theme: 'light',
     alignment: 'left',
     title: 'Park Access & COVID-19',
-    subtitle: 'CDC recommends if visiting a park 'stay close to home'',
+    subtitle: 'CDC recommends if visiting a park 'stay close to home' TEST',
     byline: 'Ori Baber, PhD',
     footer: 'Source: source citations, etc.',
     chapters: [
