@@ -4,37 +4,57 @@ var config = {
     showMarkers: true,
     theme: 'light',
     alignment: 'left',
-    title: 'The Title Text of this Story',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    title: 'Park Access & COVID-19',
+    subtitle: 'CDC recommends if visiting a park 'stay close to home'',
+    byline: 'Ori Baber, PhD',
     footer: 'Source: source citations, etc.',
     chapters: [
         {
-            id: 'slug-style-id',
-            title: 'Display Title',
+            id: 'chapter-1',
+            title: 'Parks & Health',
             image: './path/to/image/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: 'Parks are healthy. People are visiting parks. CDC recommends staying close to home.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 13.5,
-                pitch: 60,
-                bearing: 0
+              center: [-73.96594, 40.78334],
+              zoom: 12.94,
+              pitch: 53.00,
+              bearing: -1.94
             },
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1
-                // }
+              {
+                Layer: 'central-park-buffer',
+                opacity: 0,
+                Layer: 'central-park-lines',
+                opacity: 0,
+              ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-2',
+            title: 'Park within a 10-Minute Walk',
+            image: './path/to/image/source.png',
+            description: 'TPL uses 10-minute walk a 'close to home'. Within the boundary live within a 10-minute walk of Central Park, NYC.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 13.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            onChapterEnter: [
+              {
+                Layer: 'mapbox-satellite',
+                opacity: 1
+              }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+              {
+                Layer: 'mapbox-satellite',
+                opacity: 1
+              }
             ]
         },
         {
-            id: 'other-identifier',
+            id: 'chapter-3',
             title: 'Second Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -46,6 +66,20 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
-        }
+        },
+        {
+            id: 'chapter-4',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-77.020636, 38.886900],
+                zoom: 13.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
     ]
 };
