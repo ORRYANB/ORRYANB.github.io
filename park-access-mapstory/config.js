@@ -247,7 +247,7 @@ var config = {
         {
             id: 'chapter-5',
             title: 'New York, NY',
-            image: 'park-access-mapstory/images/legend.png',
+            image: './park-access-mapstory/images/legend.png',
             description: 'According to these data from 2017, 98.8% of New York’s 8.5M residents had park access.',
             location: { //New York
             center: [-74.01808, 40.71582],
