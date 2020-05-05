@@ -22,8 +22,8 @@ title: Ori Baber, PhD
 email: ori.baber@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Exploring the world with data, maps and a good pair of hiking boots.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/_posts" # the subpath of your site, e.g. /blog
+url: "https://orryanb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ORRYANB
 github_username:  ORRYANB
 
