@@ -10,7 +10,7 @@ I had moderate familiarity with Mapbox before this undertaking, but have backgro
 
 Next time, I'll definitely spend more time constructing/ refining the story before diving into the coding. I'm sure a storytelling map is only as good as the actual story it's telling, so it'll be important to get it right.
 
-Take a look at the final product and let me know what you think: [Equity in Park Access During COVID-19][mapbox-access]
+Take a look at the final product and let me know what you think: [Equity in Park Access During COVID-19][mapbox-access].
 
 ![Mapbox Storytelling Template](./assets/park_storytelling.gif "Mapbox Storytelling")
 
