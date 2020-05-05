@@ -247,7 +247,7 @@ var config = {
         {
             id: 'chapter-5',
             title: 'New York, NY',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/park-access-mapstory/images/legend.png',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/park-access-mapstory/images/legend.png',
             description: 'According to these data from 2017, 98.8% of New York’s 8.5M residents had park access.',
             location: { //New York
             center: [-74.01808, 40.71582],
@@ -306,7 +306,7 @@ var config = {
         {
             id: 'chapter-6',
             title: 'Portland',
-            image: 'D:\\GitHub\\ORRYANB.github.io\\park-access-mapstory\\images\\legend.png',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/park-access-mapstory/images/legend.png',
             description: '88% of Portland’s residents had park access. Most, but not all neighborhoods, had better than average percent access.',
             location: { //Portland
             center: [-122.63378, 45.59822],
@@ -329,9 +329,9 @@ var config = {
         {
             id: 'chapter-7',
             title: 'Charleston, SC',
-            image: '',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/park-access-mapstory/images/legend.png',
             description: 'However, only 50.7% of Charleston’s residents had park access. Most neighborhoods had poorer than average percent access.',
-            location: { //Need to update
+            location: {
               center: [-79.97289, 32.81137],
               zoom: 10.98,
               pitch: 45.00,
@@ -388,7 +388,7 @@ var config = {
         {
             id: 'chapter-8',
             title: 'Lake Charles, LA',
-            image: '',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/park-access-mapstory/images/legend.png',
             description: 'Only 17.2% of Lake Charles’s residents had park access. 48.3% of Lake Charles’s residents are Black, 80.7% of whom do not have convenient access to a park.',
             location: {
             center: [-93.24858, 30.23549],
