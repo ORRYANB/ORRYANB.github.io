@@ -2,7 +2,7 @@
 layout: post
 title:  "Park Access & COVID-19: A Mapbox Story"
 date:   2020-04-28 10:31:05 -0400
-categories: 
+categories: maps
 ---
 On lockdown from COVID-19 and having just defended my dissertation, I've found myself with some unexpected (but welcomed) spare time. So, I decided to explore Mapbox's [Interactive Storytelling][mapbox-storytelling] template and attempt to build a cartographic narrative on the theme of 'accessibility of public parks in the context of COVID-19'.
 
