@@ -12,5 +12,7 @@ Next time, I'll definitely spend more time constructing/ refining the story befo
 
 Take a look at the final product and let me know what you think: [Map Box Accessibility][mapbox-access].
 
+![Mapbox Storytelling Template](https://github.com/ORRYANB/ORRYANB.github.io/blob/master/_posts/assets/park_storytelling.gif?raw=true)
+
 [mapbox-access]: https://orryanb.github.io/park-access-mapstory/index.html
 [mapbox-storytelling]: https://www.mapbox.com/solutions/interactive-storytelling
