@@ -12,7 +12,7 @@ Next time, I'll definitely spend more time constructing/ refining the story befo
 
 Take a look at the final product and let me know what you think: [Equity in Park Access During COVID-19][mapbox-access]
 
-![Mapbox Storytelling Template](_posts/assets/park_storytelling.gif)
+![Mapbox Storytelling Template](assets/park_storytelling.gif)
 
 [mapbox-access]: https://orryanb.github.io/park-access-mapstory/index.html
 [mapbox-storytelling]: https://www.mapbox.com/solutions/interactive-storytelling
