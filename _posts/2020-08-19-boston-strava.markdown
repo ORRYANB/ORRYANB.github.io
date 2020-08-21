@@ -11,14 +11,18 @@ My husband spent our first few months in Boston training for the Boston Marathon
 I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI ArcGIS Pro 2.4.3** to convert, compile and clean the data. And I used **Mapbox GL JS** to visualize the final heatmap. Check out how I did it below.
 
 [![Boston Heatmap](https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/_posts/assets/boston_strava_heatmap.PNG)](https://orryanb.github.io/maps/bostonruns.html)
+######Heatmap of our running/ walking routes around Boston. Collected fall 2019. Click the image for an interactive map. 
 
 **_Step 1: Download all Strava routes as .gpx files_**
+
 To do this, I exported all of my routes as .gpx files using Strava's bulk export feature (I started using Strava in 2014, so this turned out to be hundreds of individual routes). [Exporting your Data and Bulk Export][strava-export]
 
 **_Step 2: Convert .gpx to features in ArcGIS_**
+
 I converted each of the .gpx files using the 'GPX to Features' and 'Points to Line' tools in ArcGIS.
 
 **_Step 3: Import the tracks a layer in Mapbox and style_**
+
 To achieve the heatmap effect in Mapbox, I duplicated the *tracks* layer three times and adjusted the opacity and line width for each layer.
 
   ```
