@@ -4,15 +4,38 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**Expertise**
+-Community Health Improvement
+-Zoning and Land Use Economics
+-Complex Data Analysis & Visualization
+-Public Open Space Design & Engineering
+-Sport & Cultural Tourism Planning
+-Redevelopment and Land Remediation
+-Traditional Economic Development
+-Low Impact Development
+-Grant Writing/ RFP Solicitation
+-Public-Private Partnerships
+-Project and Construction Management
+-Municipal Procurement & Contracting
+-Technical Communication
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**Project Management**
+-Strategic Planning
+-Budget, Talent, Timeline and Contract Management
+-Procurement
 
+**Research Methods**
+-Demography
+-Multivariate Statistics
+-Health Impact Assessment
+-Built Environment Assessment/ Audits
 
-[jekyll-organization]: https://github.com/jekyll
+**Computer**
+-ArcGIS Suite
+-Microsoft Office
+-R
+-SPSS
+-Tableau
+
+![About](https://orryanb.github.io/photos/About.png)
