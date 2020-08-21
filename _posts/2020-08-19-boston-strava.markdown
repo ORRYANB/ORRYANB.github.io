@@ -11,7 +11,8 @@ My husband spent our first few months in Boston training for the Boston Marathon
 I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI ArcGIS Pro 2.4.3** to convert, compile and clean the data. And I used **Mapbox GL JS** to visualize the final heatmap. Check out how I did it below.
 
 [![Boston Heatmap](https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/_posts/assets/boston_strava_heatmap.PNG)](https://orryanb.github.io/maps/bostonruns.html)
-######Heatmap of our running/ walking routes around Boston. Collected fall 2019. Click the image for an interactive map. 
+
+###### Heatmap of our running/ walking routes around Boston. Collected fall 2019. Click the image for an interactive map.
 
 **_Step 1: Download all Strava routes as .gpx files_**
 
