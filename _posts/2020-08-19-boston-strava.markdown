@@ -21,7 +21,7 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 <style>
 	body { margin: 0; padding: 0; }
-	map { position: static; width: 100%; }
+	map { position: relative; width: 100%; }
 </style>
 </head>
 <body>
@@ -29,10 +29,10 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1Ijoib3JyeWFuYmIiLCJhIjoiY2tlMWJ4Y2lwMmNpMDJxa2plcW12azFuMSJ9.3zlZzlycsMf1SMGDAjTQVA';
 var map = new mapboxgl.Map({
-container: 'map', // container id
-style: 'mapbox://styles/orryanbb/cke1c10ge0a1419nzh5q7zmmu', // style URL
-center: [-71.08266, 42.34674], // starting position [lng, lat]
-zoom: 13.01 // starting zoom
+container: 'map',
+style: 'mapbox://styles/orryanbb/cke1c10ge0a1419nzh5q7zmmu',
+center: [-71.08266, 42.34674],
+zoom: 13.01
 });
 </script>
 
