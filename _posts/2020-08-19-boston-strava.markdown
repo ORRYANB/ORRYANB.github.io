@@ -19,7 +19,7 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 <style>
 	body {}
-	#map { position: static;}
+	#map { position: relative;}
 </style>
 </head>
 <body>
