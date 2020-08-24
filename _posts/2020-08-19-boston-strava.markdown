@@ -23,7 +23,6 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 <style>
 	body { margin: 0; padding: 0; }
-	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
 </style>
 </head>
 <body>
@@ -38,8 +37,6 @@ zoom: 13.01 // starting zoom
 });
 </script>
 
-</body>
-</html>
 
 **_Step 1: Download all Strava routes as .gpx files_**
 
