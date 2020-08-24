@@ -21,7 +21,7 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
 <style>
 	body { margin: 0; padding: 0; }
-	map { position: relative; width: 100%; }
+	map { position: static; width: 100%; }
 </style>
 </head>
 <body>
