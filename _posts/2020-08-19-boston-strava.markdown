@@ -14,6 +14,10 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 
 ###### Heatmap of our running/ walking routes around Boston. Collected fall 2019. Click the image for an interactive map.
 
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Boston Heatmap</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
@@ -32,6 +36,9 @@ center: [-71.08266, 42.34674], // starting position [lng, lat]
 zoom: 13.01 // starting zoom
 });
 </script>
+
+</body>
+</html>
 
 **_Step 1: Download all Strava routes as .gpx files_**
 
