@@ -27,6 +27,7 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 </style>
 </head>
 <body>
+<div class="post-content e-content" itemprop="articleBody">
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1Ijoib3JyeWFuYmIiLCJhIjoiY2tlMWJ4Y2lwMmNpMDJxa2plcW12azFuMSJ9.3zlZzlycsMf1SMGDAjTQVA';
 var map = new mapboxgl.Map({
