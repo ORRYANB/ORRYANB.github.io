@@ -12,9 +12,7 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 
 [![Boston Heatmap](https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/_posts/assets/boston_strava_heatmap.PNG)](https://orryanb.github.io/maps/bostonruns.html)
 
-<html>
-<head>
-<meta charset="utf-8" />
+
 <title>Boston Heatmap</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
@@ -36,8 +34,6 @@ zoom: 13.01 // starting zoom
 });
 </script>
 
-</body>
-</html>
 
 ###### Heatmap of our running/ walking routes around Boston. Collected fall 2019. Click the image for an interactive map.
 
