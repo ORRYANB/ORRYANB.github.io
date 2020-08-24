@@ -13,7 +13,6 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 [![Boston Heatmap](https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/_posts/assets/boston_strava_heatmap.PNG)](https://orryanb.github.io/maps/bostonruns.html)
 
 
-<title>Boston Heatmap</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
