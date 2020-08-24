@@ -14,6 +14,25 @@ I used the Strava app on an **iPhone 7** to collect the routes. I used **ESRI Ar
 
 ###### Heatmap of our running/ walking routes around Boston. Collected fall 2019. Click the image for an interactive map.
 
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1Ijoib3JyeWFuYmIiLCJhIjoiY2tlMWJ4Y2lwMmNpMDJxa2plcW12azFuMSJ9.3zlZzlycsMf1SMGDAjTQVA';
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/orryanbb/cke1c10ge0a1419nzh5q7zmmu', // style URL
+center: [-71.08266, 42.34674], // starting position [lng, lat]
+zoom: 13.01 // starting zoom
+});
+</script>
+
 **_Step 1: Download all Strava routes as .gpx files_**
 
 To do this, I exported all of my routes as .gpx files using Strava's bulk export feature (I started using Strava in 2014, so this turned out to be hundreds of individual routes). [Exporting your Data and Bulk Export][strava-export]
