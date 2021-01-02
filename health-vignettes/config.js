@@ -11,7 +11,7 @@ var config = {
         {
             id: 'chapter-1',
             title: 'Life Expectancy at Birth by US County',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -74,7 +74,7 @@ var config = {
         {
             id: 'chapter-2',
             title: 'Prevalence of Obesity by US County',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -137,7 +137,7 @@ var config = {
         {
             id: 'chapter-3',
             title: 'Prevalence of COPD by US County',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/copd-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -200,7 +200,7 @@ var config = {
         {
             id: 'chapter-4',
             title: 'Prevalence of Smoking by US County',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/smoking-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -263,7 +263,7 @@ var config = {
         {
             id: 'chapter-5',
             title: 'Life Expectancy at Birth by US County',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -326,7 +326,7 @@ var config = {
         {
             id: 'chapter-6',
             title: 'Life Expectancy at Birth by US Census Tract',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -389,7 +389,7 @@ var config = {
         {
             id: 'chapter-7',
             title: 'Prevalence of Obesity by US Census Tract',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -452,7 +452,7 @@ var config = {
         {
             id: 'chapter-8',
             title: 'Prevalence of COPD by US Census Tract',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/copd-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -515,7 +515,7 @@ var config = {
         {
             id: 'chapter-9',
             title: 'Prevalence of Smoking by US Census Tract',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/smoking-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -578,7 +578,7 @@ var config = {
         {
             id: 'chapter-10',
             title: 'Life Expectancy at Birth by US Census Tract',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: 'Greater Detroit',
             location: {
               center: [-83.30584, 42.63288],
@@ -641,7 +641,7 @@ var config = {
         {
             id: 'chapter-11',
             title: 'Prevalence of Obesity by US Census Tract',
-            image: 'https://github.com/ORRYANB/ORRYANB.github.io/blob/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
             description: 'Greater Detroit',
             location: {
               center: [-83.30584, 42.63288],
