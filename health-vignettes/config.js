@@ -639,7 +639,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-10',
+            id: 'chapter-11',
             title: 'Prevalence of Obesity by US Census Tract',
             image: '',
             description: 'Greater Detroit',
