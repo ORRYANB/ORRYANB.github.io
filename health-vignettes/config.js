@@ -577,7 +577,7 @@ var config = {
         },
         {
             id: 'chapter-10',
-            title: '',
+            title: 'test',
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/grandale.png?raw=true',
             description: '',
             location: {
