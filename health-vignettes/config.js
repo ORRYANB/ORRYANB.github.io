@@ -637,6 +637,6 @@ var config = {
                 }
             ],
             onChapterExit: []
-        },
+        }
     ]
 };
