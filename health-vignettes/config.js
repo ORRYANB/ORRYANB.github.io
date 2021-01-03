@@ -642,6 +642,7 @@ var config = {
             id: 'chapter-11',
             title: 'Prevalence of Obesity by US Census Tract',
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
             description: 'Greater Detroit',
             location: {
               center: [-83.30584, 42.63288],
