@@ -644,10 +644,10 @@ var config = {
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/grandale.png?raw=true',
             description: '',
             location: {
-              center: [-83.20689, 42.37668],
-              zoom: 15.87,
-              pitch: 45.00,
-              bearing: 0.00
+              center: [-83.21038, 42.37542],
+              zoom: 16.18,
+              pitch: 49.50,
+              bearing: 26.40
             },
             onChapterEnter: [
                 {
