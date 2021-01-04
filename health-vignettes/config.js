@@ -8,9 +8,84 @@ var config = {
     byline: 'By Ori Baber',
     footer: 'Sources: <a href="https://www.cityhealthdashboard.com/"> City Health Dashboard</a>',
     chapters: [
+      {
+          id: 'chapter-1',
+          title: ' ',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+          description: '',
+          location: {
+            center: [-96.29769, 38.69331],
+            zoom: 4.63,
+            pitch: 0.00,
+            bearing: 0.00
+          },
+          onChapterEnter: [
+              {
+                layer: 'state-chronic',
+                opacity: 1
+              },
+              {
+                layer: 'state-phs',
+                opacity: 0
+              },
+              {
+                layer: 'life-expectancy-labels',
+                opacity: 0
+              },
+              {
+                layer: 'life-expectancy',
+                opacity: 0
+              },
+              {
+                layer: 'obesity',
+                opacity: 0
+              },
+              {
+                layer: 'copd',
+                opacity: 0
+              },
+              {
+                layer: 'smoking',
+                opacity: 0
+              },
+              {
+                layer: 'atlanta_life_exp',
+                opacity: 0
+              },
+              {
+                layer: 'atlanta_obesity',
+                opacity: 0
+              },
+              {
+                layer: 'atlanta_copd',
+                opacity: 0
+              },
+              {
+                layer: 'atlanta_smoking',
+                opacity: 0
+              },
+              {
+                layer: 'detroit-life-expectancy',
+                opacity: 0
+              },
+              {
+                layer: 'detroit-obesity',
+                opacity: 0
+              },
+              {
+                layer: 'detroit-copd',
+                opacity: 0
+              },
+              {
+                layer: 'detroit-smoking',
+                opacity: 0
+              }
+          ],
+          onChapterExit: []
+      },
         {
-            id: 'chapter-1',
-            title: 'Life Expectancy at Birth by US County',
+            id: 'chapter-2',
+            title: ' ',
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: '',
             location: {
@@ -20,6 +95,18 @@ var config = {
               bearing: 0.00
             },
             onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 1
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
                 {
                   layer: 'life-expectancy',
                   opacity: 1
@@ -73,8 +160,8 @@ var config = {
         },
         {
             id: 'chapter-2',
-            title: 'Prevalence of Obesity by US County',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -84,12 +171,24 @@ var config = {
             },
             onChapterEnter: [
                 {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 1
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy',
                   opacity: 0
                 },
                 {
                   layer: 'obesity',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'copd',
@@ -136,8 +235,8 @@ var config = {
         },
         {
             id: 'chapter-3',
-            title: 'Prevalence of COPD by US County',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -147,8 +246,20 @@ var config = {
             },
             onChapterEnter: [
                 {
-                  layer: 'life-expectancy',
+                  layer: 'state-chronic',
                   opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 1
+                },
+                {
+                  layer: 'life-expectancy',
+                  opacity: 1
                 },
                 {
                   layer: 'obesity',
@@ -156,7 +267,7 @@ var config = {
                 },
                 {
                   layer: 'copd',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'smoking',
@@ -199,8 +310,8 @@ var config = {
         },
         {
             id: 'chapter-4',
-            title: 'Prevalence of Smoking by US County',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -210,12 +321,24 @@ var config = {
             },
             onChapterEnter: [
                 {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy',
                   opacity: 0
                 },
                 {
                   layer: 'obesity',
-                  opacity: 0
+                  opacity: 1
                 },
                 {
                   layer: 'copd',
@@ -223,7 +346,7 @@ var config = {
                 },
                 {
                   layer: 'smoking',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'atlanta_life_exp',
@@ -262,19 +385,31 @@ var config = {
         },
         {
             id: 'chapter-5',
-            title: 'Life Expectancy at Birth by US County',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
-            description: 'Greater Atlanta',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
+            description: '',
             location: {
-              center: [-84.51564, 33.78026],
-              zoom: 9.44,
+              center: [-96.29769, 38.69331],
+              zoom: 4.63,
               pitch: 0.00,
               bearing: 0.00
             },
             onChapterEnter: [
                 {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'obesity',
@@ -282,7 +417,7 @@ var config = {
                 },
                 {
                   layer: 'copd',
-                  opacity: 0
+                  opacity: 1
                 },
                 {
                   layer: 'smoking',
@@ -325,16 +460,28 @@ var config = {
         },
         {
             id: 'chapter-6',
-            title: 'Life Expectancy at Birth by US Census Tract',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
-            description: 'Greater Atlanta',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
+            description: '',
             location: {
-              center: [-84.51564, 33.78026],
-              zoom: 9.44,
+              center: [-96.29769, 38.69331],
+              zoom: 4.63,
               pitch: 0.00,
               bearing: 0.00
             },
             onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
                 {
                   layer: 'life-expectancy',
                   opacity: 0
@@ -349,11 +496,11 @@ var config = {
                 },
                 {
                   layer: 'smoking',
-                  opacity: 0
+                  opacity: 1
                 },
                 {
                   layer: 'atlanta_life_exp',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'atlanta_obesity',
@@ -388,8 +535,8 @@ var config = {
         },
         {
             id: 'chapter-7',
-            title: 'Prevalence of Obesity by US Census Tract',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -399,8 +546,20 @@ var config = {
             },
             onChapterEnter: [
                 {
-                  layer: 'life-expectancy',
+                  layer: 'state-chronic',
                   opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy',
+                  opacity: 1
                 },
                 {
                   layer: 'obesity',
@@ -420,7 +579,7 @@ var config = {
                 },
                 {
                   layer: 'atlanta_obesity',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'atlanta_copd',
@@ -451,8 +610,8 @@ var config = {
         },
         {
             id: 'chapter-8',
-            title: 'Prevalence of COPD by US Census Tract',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -461,6 +620,18 @@ var config = {
               bearing: 0.00
             },
             onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
                 {
                   layer: 'life-expectancy',
                   opacity: 0
@@ -479,7 +650,7 @@ var config = {
                 },
                 {
                   layer: 'atlanta_life_exp',
-                  opacity: 0
+                  opacity: 1
                 },
                 {
                   layer: 'atlanta_obesity',
@@ -487,7 +658,7 @@ var config = {
                 },
                 {
                   layer: 'atlanta_copd',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'atlanta_smoking',
@@ -514,8 +685,8 @@ var config = {
         },
         {
             id: 'chapter-9',
-            title: 'Prevalence of Smoking by US Census Tract',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -524,6 +695,18 @@ var config = {
               bearing: 0.00
             },
             onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
                 {
                   layer: 'life-expectancy',
                   opacity: 0
@@ -546,7 +729,7 @@ var config = {
                 },
                 {
                   layer: 'atlanta_obesity',
-                  opacity: 0
+                  opacity: 1
                 },
                 {
                   layer: 'atlanta_copd',
@@ -554,7 +737,7 @@ var config = {
                 },
                 {
                   layer: 'atlanta_smoking',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'detroit-life-expectancy',
@@ -578,6 +761,156 @@ var config = {
         {
             id: 'chapter-10',
             title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
+            description: 'Greater Atlanta',
+            location: {
+              center: [-84.51564, 33.78026],
+              zoom: 9.44,
+              pitch: 0.00,
+              bearing: 0.00
+            },
+            onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy',
+                  opacity: 0
+                },
+                {
+                  layer: 'obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'smoking',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_life_exp',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_copd',
+                  opacity: 1
+                },
+                {
+                  layer: 'atlanta_smoking',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-life-expectancy',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-smoking',
+                  opacity: 0
+                }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-11',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
+            description: 'Greater Atlanta',
+            location: {
+              center: [-84.51564, 33.78026],
+              zoom: 9.44,
+              pitch: 0.00,
+              bearing: 0.00
+            },
+            onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy',
+                  opacity: 0
+                },
+                {
+                  layer: 'obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'smoking',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_life_exp',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_smoking',
+                  opacity: 1
+                },
+                {
+                  layer: 'detroit-life-expectancy',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-smoking',
+                  opacity: 0
+                }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'chapter-12',
+            title: ' ',
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
             description: '',
             location: {
@@ -587,6 +920,18 @@ var config = {
               bearing: 0.00
             },
             onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
                 {
                   layer: 'life-expectancy',
                   opacity: 0
@@ -639,10 +984,10 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'chapter-11',
+            id: 'chapter-13',
             title: ' ',
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/grandale.png?raw=true',
-            description: '',
+            description: 'Sources: <a href="https://earth.google.com/web/@42.37698188,-83.20233701,188.99856567a,0d,60y,25.5310756h,84.6312939t,-0r/data=IhoKFmo4V0RoNG1xR3dkRGtNbnpxU181NEEQAg?utm_source=earth7&utm_campaign=vine&hl=en"> Google Streetview: Recreation Center</a>',
             location: {
               center: [-83.21038, 42.37542],
               zoom: 16.18,
@@ -650,6 +995,18 @@ var config = {
               bearing: 26.40
             },
             onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
                 {
                   layer: 'life-expectancy',
                   opacity: 0
