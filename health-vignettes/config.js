@@ -1057,6 +1057,81 @@ var config = {
                 }
             ],
             onChapterExit: []
+        },
+        {
+            id: 'chapter-13',
+            title: ' ',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            description: 'Sources: <a href="https://earth.google.com/web/@42.37698188,-83.20233701,188.99856567a,0d,60y,25.5310756h,84.6312939t,-0r/data=IhoKFmo4V0RoNG1xR3dkRGtNbnpxU181NEEQAg?utm_source=earth7&utm_campaign=vine&hl=en"> Google Streetview: Recreation Center</a>',
+            location: {
+              center: [-83.21038, 42.37542],
+              zoom: 16.18,
+              pitch: 49.50,
+              bearing: 26.40
+            },
+            onChapterEnter: [
+                {
+                  layer: 'state-chronic',
+                  opacity: 0
+                },
+                {
+                  layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
+                  layer: 'life-expectancy',
+                  opacity: 0
+                },
+                {
+                  layer: 'obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'smoking',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_life_exp',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_obesity',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'atlanta_smoking',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-life-expectancy',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-obesity',
+                  opacity: 1
+                },
+                {
+                  layer: 'detroit-copd',
+                  opacity: 0
+                },
+                {
+                  layer: 'detroit-smoking',
+                  opacity: 0
+                }
+            ],
+            onChapterExit: []
         }
     ]
 };
