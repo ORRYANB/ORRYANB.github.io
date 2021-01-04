@@ -11,7 +11,7 @@ var config = {
       {
           id: 'chapter-1',
           title: ' ',
-          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/chronic-legend.png?raw=true',
           description: '',
           location: {
             center: [-96.29769, 38.69331],
@@ -86,7 +86,7 @@ var config = {
         {
             id: 'chapter-2',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/phs-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
