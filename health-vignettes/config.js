@@ -100,6 +100,14 @@ var config = {
             },
             onChapterEnter: [
                 {
+                  layer: 'life-expectancy-labels',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
+                  opacity: 1
+                },
+                {
                   layer: 'state-chronic',
                   opacity: 0
                 },
@@ -107,14 +115,7 @@ var config = {
                   layer: 'state-phs',
                   opacity: 1
                 },
-                {
-                  layer: 'phs-labels',
-                  opacity: 1
-                },
-                {
-                  layer: 'life-expectancy-labels',
-                  opacity: 0
-                },
+
                 {
                   layer: 'life-expectancy',
                   opacity: 0
@@ -1039,7 +1040,7 @@ var config = {
             id: 'chapter-14',
             title: ' ',
             image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
-            description: 'Sources: <a href="https://earth.google.com/web/@42.37698188,-83.20233701,188.99856567a,0d,60y,25.5310756h,84.6312939t,-0r/data=IhoKFmo4V0RoNG1xR3dkRGtNbnpxU181NEEQAg?utm_source=earth7&utm_campaign=vine&hl=en"> Google Streetview: Recreation Center</a>',
+            description: '',
             location: {
               center: [-83.21038, 42.37542],
               zoom: 16.18,
