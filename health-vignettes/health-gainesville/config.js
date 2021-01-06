@@ -339,10 +339,10 @@ var config = {
           onChapterExit: []
       },
       {
-          id: 'chapter-6',
+          id: 'chapter-7',
           title: ' ',
           image: '',
-          description: 'gainesville vpa',
+          description: 'gainesville vpa grey',
           location: {
             center: [-82.32722, 29.65415],
             zoom: 11.83,
