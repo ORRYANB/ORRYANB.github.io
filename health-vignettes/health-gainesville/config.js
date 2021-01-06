@@ -296,18 +296,6 @@ var config = {
           },
           onChapterEnter: [
               {
-                layer: 'health-alachua',
-                opacity: 0
-              },
-              {
-                layer: 'uf',
-                opacity: 0
-              },
-              {
-                layer: 'i75',
-                opacity: 0
-              },
-              {
                 layer: 'black-dot-2010',
                 opacity: 0
               },
@@ -315,6 +303,18 @@ var config = {
                 layer: 'white-dot-2010',
                 opacity: 0
               },
+              {
+                layer: 'i75',
+                opacity: 0
+              },
+              {
+                layer: 'street-lights',
+                opacity: 0
+              },
+              {
+                layer: 'street-light-mesh',
+                opacity: 0
+              }
               {
                 layer: 'gainesville-cras',
                 opacity: 0
@@ -328,13 +328,13 @@ var config = {
                 opacity: 0
               },
               {
-                layer: 'street-lights',
+                layer: 'health-alachua',
                 opacity: 0
               },
               {
-                layer: 'street-light-mesh',
+                layer: 'uf',
                 opacity: 0
-              }
+              },  
           ],
           onChapterExit: []
       },
