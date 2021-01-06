@@ -500,5 +500,8 @@ var config = {
                 layer: 'street-light-mesh',
                 opacity: 1
               }
+            ],
+            onChapterExit: []
+          }
     ]
 };
