@@ -3,7 +3,7 @@ var config = {
     accessToken: 'pk.eyJ1Ijoib3JpLXVyYmFuMyIsImEiOiJja2plZXAycnUwZ21xMnVwOGVubDllazI3In0.FhXu4OmZxPRoH0d9NCvvXw',
     theme: 'light',
     alignment: 'left',
-    title: 'Geography of Health',
+    title: 'TEST',
     subtitle: 'The role of place, location and geography in health, well-being and disease',
     byline: 'By Ori Baber',
     footer: 'Sources: <a href="https://www.cityhealthdashboard.com/"> City Health Dashboard</a>',
