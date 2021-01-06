@@ -384,7 +384,7 @@ var config = {
               },
               {
                 layer: 'health-alachua',
-                opacity: 0
+                opacity: 1
               },
               {
                 layer: 'uf',
