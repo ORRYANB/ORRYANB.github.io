@@ -339,27 +339,23 @@ var config = {
           onChapterExit: []
       },
       {
-          id: 'chapter-7',
+          id: 'chapter-6',
           title: ' ',
           image: '',
-          description: 'gainesville health + vpa',
+          description: 'gainesville vpa',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
-            pitch: 0.00,
-            bearing: -0.35
+            center: [-82.32722, 29.65415],
+            zoom: 11.83,
+            pitch: 48.50,
+            bearing: 0.00
           },
           onChapterEnter: [
               {
-                layer: 'health-alachua',
-                opacity: 1
-              },
-              {
-                layer: 'uf',
+                layer: 'black-dot-2010',
                 opacity: 0
               },
               {
-                layer: 'gainesville-cras',
+                layer: 'white-dot-2010',
                 opacity: 0
               },
               {
@@ -367,11 +363,15 @@ var config = {
                 opacity: 0
               },
               {
-                layer: 'black-dot-2010',
+                layer: 'street-lights',
                 opacity: 0
               },
               {
-                layer: 'white-dot-2010',
+                layer: 'street-light-mesh',
+                opacity: 0
+              },
+              {
+                layer: 'gainesville-cras',
                 opacity: 0
               },
               {
@@ -383,11 +383,11 @@ var config = {
                 opacity: 1
               },
               {
-                layer: 'street-lights',
+                layer: 'health-alachua',
                 opacity: 0
               },
               {
-                layer: 'street-light-mesh',
+                layer: 'uf',
                 opacity: 0
               }
           ],
