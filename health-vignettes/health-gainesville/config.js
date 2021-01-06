@@ -296,23 +296,11 @@ var config = {
           },
           onChapterEnter: [
               {
-                layer: 'vpa-county-color',
-                opacity: 1
-              },
-              {
-                layer: 'vpa-county-grey',
-                opacity: 0
-              },
-              {
                 layer: 'health-alachua',
                 opacity: 0
               },
               {
                 layer: 'uf',
-                opacity: 0
-              },
-              {
-                layer: 'gainesville-cras',
                 opacity: 0
               },
               {
@@ -325,6 +313,18 @@ var config = {
               },
               {
                 layer: 'white-dot-2010',
+                opacity: 0
+              },
+              {
+                layer: 'gainesville-cras',
+                opacity: 0
+              },
+              {
+                layer: 'vpa-county-color',
+                opacity: 1
+              },
+              {
+                layer: 'vpa-county-grey',
                 opacity: 0
               },
               {
