@@ -495,7 +495,7 @@ var config = {
               {
                 layer: 'street-lights',
                 opacity: 1
-              }
+              },
               {
                 layer: 'street-light-mesh',
                 opacity: 1
