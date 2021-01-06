@@ -11,7 +11,7 @@ var config = {
       {
           id: 'chapter-1',
           title: ' ',
-          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/chronic-legend.png?raw=true',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/chronic-legend.png?raw=true',
           description: '',
           location: {
             center: [-96.29769, 38.69331],
@@ -90,7 +90,7 @@ var config = {
         {
             id: 'chapter-2',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/phs-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/phs-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -169,7 +169,7 @@ var config = {
         {
             id: 'chapter-3',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -248,7 +248,7 @@ var config = {
         {
             id: 'chapter-4',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/obesity-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -327,7 +327,7 @@ var config = {
         {
             id: 'chapter-5',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/copd-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -406,7 +406,7 @@ var config = {
         {
             id: 'chapter-6',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/smoking-legend.png?raw=true',
             description: '',
             location: {
               center: [-96.29769, 38.69331],
@@ -485,7 +485,7 @@ var config = {
         {
             id: 'chapter-7',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -564,7 +564,7 @@ var config = {
         {
             id: 'chapter-8',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -643,7 +643,7 @@ var config = {
         {
             id: 'chapter-9',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/obesity-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -722,7 +722,7 @@ var config = {
         {
             id: 'chapter-10',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/copd-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/copd-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -801,7 +801,7 @@ var config = {
         {
             id: 'chapter-11',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/smoking-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/smoking-legend.png?raw=true',
             description: 'Greater Atlanta',
             location: {
               center: [-84.51564, 33.78026],
@@ -880,7 +880,7 @@ var config = {
         {
             id: 'chapter-12',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/le-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
             description: '',
             location: {
               center: [-83.30584, 42.63288],
@@ -959,7 +959,7 @@ var config = {
         {
             id: 'chapter-13',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/grandale.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/grandale.png?raw=true',
             description: 'Sources: <a href="https://earth.google.com/web/@42.37698188,-83.20233701,188.99856567a,0d,60y,25.5310756h,84.6312939t,-0r/data=IhoKFmo4V0RoNG1xR3dkRGtNbnpxU181NEEQAg?utm_source=earth7&utm_campaign=vine&hl=en"> Google Streetview: Recreation Center</a>',
             location: {
               center: [-83.21038, 42.37542],
@@ -1038,7 +1038,7 @@ var config = {
         {
             id: 'chapter-14',
             title: ' ',
-            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/images/obesity-legend.png?raw=true',
+            image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/obesity-legend.png?raw=true',
             description: '',
             location: {
               center: [-83.21038, 42.37542],
