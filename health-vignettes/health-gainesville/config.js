@@ -380,7 +380,7 @@ var config = {
               },
               {
                 layer: 'vpa-county-grey',
-                opacity: 1
+                opacity: 0.5
               },
               {
                 layer: 'health-alachua',
@@ -397,10 +397,10 @@ var config = {
           id: 'chapter-8',
           title: ' ',
           image: '',
-          description: 'gainesville vpa',
+          description: 'streetlights',
           location: {
-            center: [-82.32722, 29.65415],
-            zoom: 11.83,
+            center: [-82.35614, 29.64053],
+            zoom: 13.35,
             pitch: 48.50,
             bearing: 0.00
           },
@@ -419,7 +419,7 @@ var config = {
               },
               {
                 layer: 'street-lights',
-                opacity: 0
+                opacity: 1
               },
               {
                 layer: 'street-light-mesh',
@@ -431,7 +431,7 @@ var config = {
               },
               {
                 layer: 'vpa-county-color',
-                opacity: 1
+                opacity: 0
               },
               {
                 layer: 'vpa-county-grey',
@@ -439,7 +439,7 @@ var config = {
               },
               {
                 layer: 'health-alachua',
-                opacity: 0
+                opacity: 1
               },
               {
                 layer: 'uf',
