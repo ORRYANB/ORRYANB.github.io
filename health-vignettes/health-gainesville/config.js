@@ -380,7 +380,7 @@ var config = {
               },
               {
                 layer: 'vpa-county-grey',
-                opacity: 0.5
+                opacity: 0.7
               },
               {
                 layer: 'health-alachua',
@@ -424,6 +424,61 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
+              },
+              {
+                layer: 'gainesville-cras',
+                opacity: 0
+              },
+              {
+                layer: 'vpa-county-color',
+                opacity: 0
+              },
+              {
+                layer: 'vpa-county-grey',
+                opacity: 0
+              },
+              {
+                layer: 'health-alachua',
+                opacity: 1
+              },
+              {
+                layer: 'uf',
+                opacity: 0
+              }
+          ],
+          onChapterExit: []
+      },
+      {
+          id: 'chapter-8',
+          title: ' ',
+          image: '',
+          description: 'streetlights',
+          location: {
+            center: [-82.35614, 29.64053],
+            zoom: 13.35,
+            pitch: 48.50,
+            bearing: 0.00
+          },
+          onChapterEnter: [
+              {
+                layer: 'black-dot-2010',
+                opacity: 0
+              },
+              {
+                layer: 'white-dot-2010',
+                opacity: 0
+              },
+              {
+                layer: 'i75',
+                opacity: 0
+              },
+              {
+                layer: 'street-lights',
+                opacity: 1
+              },
+              {
+                layer: 'street-light-mesh',
+                opacity: 1
               },
               {
                 layer: 'gainesville-cras',
