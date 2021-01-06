@@ -29,6 +29,10 @@ var config = {
                 opacity: 0
               },
               {
+                layer: 'phs-labels',
+                opacity: 0
+              },
+              {
                 layer: 'life-expectancy-labels',
                 opacity: 0
               },
@@ -101,6 +105,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 1
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 1
                 },
                 {
@@ -179,6 +187,10 @@ var config = {
                   opacity: 0
                 },
                 {
+                  layer: 'phs-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy-labels',
                   opacity: 1
                 },
@@ -251,6 +263,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 0
                 },
                 {
@@ -329,6 +345,10 @@ var config = {
                   opacity: 0
                 },
                 {
+                  layer: 'phs-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy-labels',
                   opacity: 0
                 },
@@ -401,6 +421,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 0
                 },
                 {
@@ -479,6 +503,10 @@ var config = {
                   opacity: 0
                 },
                 {
+                  layer: 'phs-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy-labels',
                   opacity: 0
                 },
@@ -551,6 +579,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 0
                 },
                 {
@@ -629,6 +661,10 @@ var config = {
                   opacity: 0
                 },
                 {
+                  layer: 'phs-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy-labels',
                   opacity: 0
                 },
@@ -701,6 +737,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 0
                 },
                 {
@@ -779,6 +819,10 @@ var config = {
                   opacity: 0
                 },
                 {
+                  layer: 'phs-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy-labels',
                   opacity: 0
                 },
@@ -851,6 +895,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 0
                 },
                 {
@@ -929,6 +977,10 @@ var config = {
                   opacity: 0
                 },
                 {
+                  layer: 'phs-labels',
+                  opacity: 0
+                },
+                {
                   layer: 'life-expectancy-labels',
                   opacity: 0
                 },
@@ -1001,6 +1053,10 @@ var config = {
                 },
                 {
                   layer: 'state-phs',
+                  opacity: 0
+                },
+                {
+                  layer: 'phs-labels',
                   opacity: 0
                 },
                 {
