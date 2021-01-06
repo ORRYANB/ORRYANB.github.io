@@ -117,7 +117,7 @@ var config = {
                 },
                 {
                   layer: 'life-expectancy',
-                  opacity: 1
+                  opacity: 0
                 },
                 {
                   layer: 'obesity',
