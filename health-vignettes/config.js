@@ -21,11 +21,7 @@ var config = {
           },
           onChapterEnter: [
               {
-                layer: 'state-chronic',
-                opacity: 1
-              },
-              {
-                layer: 'state-phs',
+                layer: 'life-expectancy-labels',
                 opacity: 0
               },
               {
@@ -33,7 +29,11 @@ var config = {
                 opacity: 0
               },
               {
-                layer: 'life-expectancy-labels',
+                layer: 'state-chronic',
+                opacity: 1
+              },
+              {
+                layer: 'state-phs',
                 opacity: 0
               },
               {
@@ -115,7 +115,6 @@ var config = {
                   layer: 'state-phs',
                   opacity: 1
                 },
-
                 {
                   layer: 'life-expectancy',
                   opacity: 0
