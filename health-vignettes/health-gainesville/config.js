@@ -314,7 +314,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              }
+              },
               {
                 layer: 'gainesville-cras',
                 opacity: 0
@@ -334,7 +334,7 @@ var config = {
               {
                 layer: 'uf',
                 opacity: 0
-              },  
+              }
           ],
           onChapterExit: []
       },
