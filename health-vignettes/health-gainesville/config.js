@@ -250,7 +250,7 @@ var config = {
               },
               {
                 layer: 'gainesville-cras',
-                opacity: 0
+                opacity: 1
               },
               {
                 layer: 'i75',
@@ -258,11 +258,11 @@ var config = {
               },
               {
                 layer: 'black-dot-2010',
-                opacity: 1
+                opacity: 0
               },
               {
                 layer: 'white-dot-2010',
-                opacity: 1
+                opacity: 0
               },
               {
                 layer: 'vpa-county-color',
