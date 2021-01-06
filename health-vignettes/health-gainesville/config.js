@@ -289,10 +289,10 @@ var config = {
           image: '',
           description: 'gainesville vpa',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
-            pitch: 0.00,
-            bearing: -0.35
+            center: [-82.32722, 29.65415],
+            zoom: 11.83,
+            pitch: 48.50,
+            bearing: 0.00
           },
           onChapterEnter: [
               {
