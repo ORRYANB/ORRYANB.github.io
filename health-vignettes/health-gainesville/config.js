@@ -59,7 +59,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -114,7 +114,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -169,7 +169,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -224,7 +224,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -279,7 +279,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -334,7 +334,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -389,7 +389,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 0
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -444,7 +444,7 @@ var config = {
               {
                 layer: 'street-light-mesh',
                 opacity: 1
-              },
+              }
           ],
           onChapterExit: []
       },
@@ -495,10 +495,10 @@ var config = {
               {
                 layer: 'street-lights',
                 opacity: 1
-              },
+              }
               {
                 layer: 'street-light-mesh',
                 opacity: 1
-              },
+              }
     ]
 };
