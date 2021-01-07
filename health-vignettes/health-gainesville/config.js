@@ -396,7 +396,7 @@ var config = {
       {
           id: 'chapter-8',
           title: ' ',
-          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/streetlight.png?raw=true',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/streetlight.png?raw=true',
           description: '',
           location: {
             center: [-82.37286, 29.65120],
@@ -451,7 +451,7 @@ var config = {
       {
           id: 'chapter-9',
           title: ' ',
-          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/smart.png?raw=true',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/smart.png?raw=true',
           description: '',
           location: {
             center: [-82.37286, 29.65120],
