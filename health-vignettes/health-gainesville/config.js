@@ -14,10 +14,10 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
           description: '',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
             pitch: 0.00,
-            bearing: -0.35
+            bearing: 0.00
           },
           onChapterEnter: [
               {
@@ -69,10 +69,10 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/history.png?raw=true',
           description: 'uf history as train intersection',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
             pitch: 0.00,
-            bearing: -0.35
+            bearing: 0.00
           },
           onChapterEnter: [
               {
@@ -124,10 +124,10 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/highway.png?raw=true',
           description: 'i75 pull development westward',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
             pitch: 0.00,
-            bearing: -0.35
+            bearing: 0.00
           },
           onChapterEnter: [
               {
@@ -179,10 +179,10 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/race.png?raw=true',
           description: 'racial dot map',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
             pitch: 0.00,
-            bearing: -0.35
+            bearing: 0.00
           },
           onChapterEnter: [
               {
@@ -234,10 +234,10 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/cra.png?raw=true',
           description: 'gainesville cras',
           location: {
-            center: [-82.32517, 29.65860],
-            zoom: 10.92,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
             pitch: 0.00,
-            bearing: -0.35
+            bearing: 0.00
           },
           onChapterEnter: [
               {
@@ -289,9 +289,9 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/value.png?raw=true',
           description: 'gainesville vpa',
           location: {
-            center: [-82.32722, 29.65415],
-            zoom: 11.83,
-            pitch: 48.50,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
+            pitch: 50.00,
             bearing: 0.00
           },
           onChapterEnter: [
@@ -344,9 +344,9 @@ var config = {
           image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/le-legend.png?raw=true',
           description: 'gainesville vpa',
           location: {
-            center: [-82.32722, 29.65415],
-            zoom: 11.83,
-            pitch: 48.50,
+            center: [-82.42309, 29.65085],
+            zoom: 11.62,
+            pitch: 50.00,
             bearing: 0.00
           },
           onChapterEnter: [
@@ -399,9 +399,9 @@ var config = {
           image: '',
           description: 'streetlights',
           location: {
-            center: [-82.35614, 29.64053],
-            zoom: 13.35,
-            pitch: 48.50,
+            center: [-82.37286, 29.65120],
+            zoom: 13.14,
+            pitch: 50.00,
             bearing: 0.00
           },
           onChapterEnter: [
@@ -454,9 +454,9 @@ var config = {
           image: '',
           description: 'streetlights',
           location: {
-            center: [-82.35614, 29.64053],
-            zoom: 13.35,
-            pitch: 48.50,
+            center: [-82.37286, 29.65120],
+            zoom: 13.14,
+            pitch: 50.00,
             bearing: 0.00
           },
           onChapterEnter: [
