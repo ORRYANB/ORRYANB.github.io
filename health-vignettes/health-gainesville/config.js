@@ -65,7 +65,7 @@ var config = {
       },
       {
           id: 'chapter-2',
-          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/history.png?raw=true',
+          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/history.png?raw=true',
           image: '',
           description: 'uf history as train intersection',
           location: {
@@ -120,7 +120,7 @@ var config = {
       },
       {
           id: 'chapter-3',
-          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/highway.png?raw=true',
+          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/highway.png?raw=true',
           image: '',
           description: 'i75 pull development westward',
           location: {
@@ -175,7 +175,7 @@ var config = {
       },
       {
           id: 'chapter-4',
-          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/race.png?raw=true',
+          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/race.png?raw=true',
           image: '',
           description: 'racial dot map',
           location: {
@@ -230,7 +230,7 @@ var config = {
       },
       {
           id: 'chapter-5',
-          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/cra.png?raw=true',
+          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/cra.png?raw=true',
           image: '',
           description: 'gainesville cras',
           location: {
@@ -284,7 +284,7 @@ var config = {
           onChapterExit: []
       },
       {
-          id: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/value.png?raw=true',
+          id: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/value.png?raw=true',
           title: ' ',
           image: '',
           description: 'gainesville vpa',
@@ -340,7 +340,7 @@ var config = {
       },
       {
           id: 'chapter-7',
-          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
+          title: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/le-legend.png?raw=true',
           image: '',
           description: 'gainesville vpa',
           location: {
