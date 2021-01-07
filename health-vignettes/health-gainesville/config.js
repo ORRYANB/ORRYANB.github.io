@@ -341,7 +341,7 @@ var config = {
       {
           id: 'chapter-7',
           title: ' ',
-          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-gainesville/images/le-legend.png?raw=true',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
           description: 'gainesville vpa',
           location: {
             center: [-82.42309, 29.65085],
@@ -461,6 +461,14 @@ var config = {
           },
           onChapterEnter: [
               {
+                layer: 'street-lights',
+                opacity: 1
+              },
+              {
+                layer: 'street-light-mesh',
+                opacity: 1
+              },
+              {
                 layer: 'black-dot-2010',
                 opacity: 0
               },
@@ -471,14 +479,6 @@ var config = {
               {
                 layer: 'i75',
                 opacity: 0
-              },
-              {
-                layer: 'street-lights',
-                opacity: 1
-              },
-              {
-                layer: 'street-light-mesh',
-                opacity: 1
               },
               {
                 layer: 'gainesville-cras',
