@@ -341,7 +341,7 @@ var config = {
       {
           id: 'chapter-7',
           title: ' ',
-          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/le-legend.png?raw=true',
+          image: 'https://raw.githubusercontent.com/ORRYANB/ORRYANB.github.io/master/health-vignettes/health-geography/images/changes.png?raw=true',
           description: '',
           location: {
             center: [-82.42309, 29.65085],
