@@ -44,7 +44,7 @@
     }
 
     .mapboxgl-popup-content h3 {
-      background: rgb(61, 59, 59);
+      background: #161c4a;
       text-align: center;
       color: #fff;
       margin: 0;
@@ -128,8 +128,9 @@
                 'type':'geojson',
                 'data': data
               },
-              'layout': {
-                'icon-image': 'building',
+              'paint': {
+                'circle-radius': 5,
+                'circle-color': "#161c4a"
               }
             });
 
