@@ -1,7 +1,10 @@
 Buncombe Reappraisal
 ================
+<<<<<<< HEAD
 Ori Baber
 2021-03-21
+=======
+>>>>>>> 31a33ae10ad522fc8050c1cc3b10f02caf450cf0
 
 ## Step 1: Retrieve Data
 
