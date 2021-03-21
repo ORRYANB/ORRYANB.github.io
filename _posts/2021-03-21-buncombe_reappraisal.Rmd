@@ -1,8 +1,8 @@
 ---
 title: "Buncombe 2021 Reappraisal"
 author: "Ori Baber"
-date: "2021-03-20"
-output: github_document
+date: "2021-03-21"
+output: rmarkdown::github_document
 ---
 
 ## Step 1: Retrieve Data
