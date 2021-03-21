@@ -1,4 +1,4 @@
-Buncombe 2021 Reappraisal
+Buncombe Reappraisal
 ================
 Ori Baber
 2021-03-21
