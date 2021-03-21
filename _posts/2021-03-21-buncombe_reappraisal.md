@@ -177,7 +177,7 @@ residential2017_sales_bill_select_decile<-residential2017_sales_bill_select %>%
 
 ## Figure 3: Sales Ratio (Deciles)
 
-![](2021-03-21-buncombe_reappraisal_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](_posts/2021-03-21-buncombe_reappraisal_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ## Figure 4: Effective Tax Rate by Sale Price (Deciles)
 
