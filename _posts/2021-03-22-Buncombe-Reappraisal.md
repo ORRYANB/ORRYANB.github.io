@@ -154,7 +154,7 @@ residential2017_sales_bill_select<-residential2017_sales_bill%>%
 
 ## Figure 1: Sale Ratio - Total Data
 
-![](2021-03-22-Buncombe-Reappraisal_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](_posts/2021-03-22-Buncombe-Reappraisal_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ## Figure 2: Effective Tax Rate - Total Data
 
