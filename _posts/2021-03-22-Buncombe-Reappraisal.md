@@ -160,6 +160,8 @@ residential2017_sales_bill_select<-residential2017_sales_bill%>%
 
 ![About](https://orryanb.github.io/photos/unnamed-chunk-7-1.png)
 
+![About](https://orryanb.github.io/photos/About.png)
+
 ## Figure 2: Effective Tax Rate - Total Data
 
 ![](2021-03-22-Buncombe-Reappraisal_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
