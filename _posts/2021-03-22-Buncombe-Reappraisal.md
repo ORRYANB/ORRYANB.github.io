@@ -153,18 +153,7 @@ residential2017_sales_bill_select<-residential2017_sales_bill%>%
 ```
 
 ## Figure 1: Sale Ratio - Total Data
-
-A
-![](./2021-03-22-Buncombe-Reappraisal_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
-
-B
-![](https://ORRYANB.github.io/_posts/2021-03-22-Buncombe-Reappraisal_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
-
-C
 ![About](https://orryanb.github.io/photos/unnamed-chunk-7-1.png)
-
-D
-![About](https://orryanb.github.io/photos/About.png)
 
 ## Figure 2: Effective Tax Rate - Total Data
 
