@@ -1,7 +1,5 @@
-Buncombe County Reappraisal p. 2
-================
 
-## Introduction
+# Introduction
 
 For this phase of the project, we will explore historical appraisal data
 from 2001-2021. The purpose of analysis is to evaluate percent changes
@@ -25,7 +23,7 @@ reappraisal values were made publically available (in part due to
 ongoing appeals). This analysis should be re-run once the full 2021 data
 has been published.
 
-## Comparinging Individual Parcels
+# Comparinging Individual Parcels
 
 We select a series of individual parcels to compare. For this phase,
 we’ve selected parcels that have already been featured in the
@@ -86,18 +84,19 @@ appraisal_history2019_21<-appraisal_history2019_21%>%
          landbaselinechange=case_when(landvalue!=first_landval~(landvalue-first_landval)*100/first_landval, TRUE~1*NA)) 
 ```
 
-### Figure 1: Change in TOTAL Taxable Value 2001-2021 – Individual Parcel Comparisons
+#### Figure 1: Change in TOTAL Taxable Value 2001-2021 – Individual Parcel Comparisons
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
-### Figure 2: Percent Change in TOTAL Taxable Value from 2001 – Individual Parcel Comparisons
+#### Figure 2: Percent Change in TOTAL Taxable Value from 2001 – Individual Parcel Comparisons
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
-\#\#\# Figure 3: Percent Change in LAND Value from 2001 – Individual
-Parcel Comparisons
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-## Comparing growth trajectories between homes of different value
+#### Figure 3: Percent Change in LAND Value from 2001 – Individual Parcel Comparisons
+
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+# Comparing growth trajectories between homes of different value
 
 For this phase of the analysis, we group homes based on the total
 taxable value in 2001 into five equally sized groups (each representing
@@ -166,17 +165,19 @@ appraisal_history2019_21_full_s<-appraisal_history2019_21_full_s%>%
 appraisal_history2019_21_full_s$Quintile<-as.factor(appraisal_history2019_21_full_s$Quintile)
 ```
 
-### Figure 4: Change in TOTAL taxable value – comparisons across home value
+#### Figure 4: Change in TOTAL taxable value – comparisons across home value
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
-\#\#\# Figure 5: Percent change in TOTAL taxable value from 2001–
-comparisons across home value
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
-\#\#\# Figure 6: Percent change in LAND value from 2001– comparisons
-across home value
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
-### Comparing growth trajectories of homes in different municipalities in Buncombe County
+#### Figure 5: Percent change in TOTAL taxable value from 2001– comparisons across home value
+
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+#### Figure 6: Percent change in LAND value from 2001– comparisons across home value
+
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+
+# Comparing growth trajectories of homes in different municipalities in Buncombe County
 
 Here, we add a geographic crosswalk, to help identify which parcels are
 associated with the various municipalities in Buncombe County. The
@@ -215,18 +216,19 @@ appraisal_history2019_21_full_wneigh_s<-appraisal_history2019_21_full_wneigh%>%
             meanland=mean(landbaselinechange, na.rm=TRUE))
 ```
 
-### Figure 7: Change in Total taxable value– comparisons between municipalities
+#### Figure 7: Change in Total taxable value– comparisons between municipalities
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
-\#\#\# Figure 8: Percent change in TOTAL taxable value from 2001–
-comparisons between municipalities
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
-### Figure 9: Percent change in LAND value from 2001– comparisons between municipalities
+#### Figure 8: Percent change in TOTAL taxable value from 2001– comparisons between municipalities
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
-\#\# Comparing growth trajectories of homes in different neighborhoods
-in Asheville
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+
+#### Figure 9: Percent change in LAND value from 2001– comparisons between municipalities
+
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+\# Comparing growth trajectories of homes in different neighborhoods in
+Asheville
 
 ``` r
 ##Calculate average percent change by neighborhood
@@ -247,13 +249,14 @@ appraisal_history2019_21_full_wneigh_s<-appraisal_history2019_21_full_wneigh%>%
             meanland=mean(landbaselinechange, na.rm=TRUE))
 ```
 
-### Figure 10: Change in Total taxable value– comparisons between neighborhoods
+#### Figure 10: Change in Total taxable value– comparisons between neighborhoods
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
-\#\#\# Figure 11: Percent change in TOTAL taxable value from 2001–
-comparisons between neighborhoods
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
 
-### Figure 12: Percent change in LAND value from 2001– comparisons between neighborhoods
+#### Figure 11: Percent change in TOTAL taxable value from 2001– comparisons between neighborhoods
 
-![](2021-04-20-Buncombe_Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+
+#### Figure 12: Percent change in LAND value from 2001– comparisons between neighborhoods
+
+![](2021-04-20-Buncombe-Reappraisal-P2-Growth-Trajectories_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
